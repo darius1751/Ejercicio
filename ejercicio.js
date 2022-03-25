@@ -15,21 +15,13 @@
 //Mostrar la informacion con la funcion ui.message creada en el archivo formulario.js
 
 form.addEventListener('submit',(e)=>{
-    e.preventDefault();
-    ui.message('Title','Message of the application, for write in the UI');
+    e.preventDefault(); //No se modifica
+    ui.message('Title','Message of the application, for write in the UI');  //Mostrar los errores de validacion o mensaje de felicitaciones
     /*
         Mostrar la informacion
     */
 })
-const validateCode = (code)=>{
-    
-}
+
 const validateName = (name)=>{
-
-}
-const validateAge = function(age){
-    return parseInt(age) >= 16;
-}
-function validatePhone(phone){
-
+    
 }
